@@ -69,10 +69,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         to: './',
         ignore: ['.*']
       }
-    ]),
-
-    new SWPrecacheWebpackPlugin()
-
+    ])
   ]
 })
 
